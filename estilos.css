@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+
 body{
     font-family: 'Monserrat', sans-serif;
-    font-weight: 200;
 }
 
 h1 {
     text-align: center;
+    font-weight: 200;
 }
 
 header {
@@ -50,6 +52,7 @@ header {
 #titulo{
     top: 50%;
     text-align: center;
+    font-weight: 700;
 ;
 }
 
@@ -69,6 +72,18 @@ header {
     top: 44%;
     left: 37%;
     background-color: #97c1c0;
+    border-radius:5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: none;
+}
+
+#btm:hover{
+    top: 44%;
+    left: 37%;
+    background-color: #04c5c0;
     border-radius:5px;
     padding-top: 1em;
     padding-bottom: 1em;
