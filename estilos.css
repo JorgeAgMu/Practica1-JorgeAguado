@@ -1,0 +1,92 @@
+body{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgizq{
+    top: 0;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom:20%;
+    overflow: auto;
+}
+
+
+.imgcent{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.textdrc{
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    top: 50%;
+    text-align: center;
+;
+}
+
+#años{
+    top: 48%;
+}
+
+#desc{
+    top: 44%;
+}
+
+#prec{
+    top: 46%;
+}
+
+#btm{
+    top: 50%;
+    background-color: #97c1c0;
+    border-radius:5px;
+}
+
+.der{
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    height: 100%;
+    left: 60%;
+}
+
+.cen{
+    position: absolute;
+    top: 15%;
+    width: 45%;
+    height: 100%;
+    left: 200px;
+
+}
+
+.izq{
+    position: absolute;
+    top: 15%;
+    width: 200px;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+}
