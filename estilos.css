@@ -23,6 +23,12 @@ header {
     margin-right: 7.5%;
     margin-bottom:20%;
     overflow: auto;
+    filter: grayscale(1);
+}
+
+.imgizq:hover{
+    filter: grayscale(0);
+    transition: 1s;
 }
 
 
@@ -60,9 +66,15 @@ header {
 }
 
 #btm{
-    top: 50%;
+    top: 44%;
+    left: 37%;
     background-color: #97c1c0;
     border-radius:5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: none;
 }
 
 .der{
