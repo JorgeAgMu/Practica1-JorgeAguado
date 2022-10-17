@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
 
-body{
-    font-family: 'Monserrat', sans-serif;
-}
-
 h1 {
+    font-family: 'Monserrat', sans-serif;
     text-align: center;
     font-weight: 200;
+}
+
+body{
+    font-family: 'Monserrat', sans-serif;
 }
 
 header {
@@ -47,6 +48,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size:18px;
 }
 
 #titulo{
@@ -70,25 +72,25 @@ header {
 
 #btm{
     top: 44%;
-    left: 37%;
+    left: 30.75%;
     background-color: #97c1c0;
-    border-radius:5px;
+    border-radius:15px;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
     border: none;
 }
 
 #btm:hover{
     top: 44%;
-    left: 37%;
+    left: 30.75%;
     background-color: #04c5c0;
-    border-radius:5px;
+    border-radius:15px;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
     border: none;
 }
 
@@ -96,7 +98,7 @@ header {
     position: absolute;
     top: 15%;
     width: 40%;
-    height: 100%;
+    height: 85%;
     left: 60%;
 }
 
@@ -104,7 +106,7 @@ header {
     position: absolute;
     top: 15%;
     width: 45%;
-    height: 100%;
+    height: 85%;
     left: 200px;
 
 }
@@ -113,7 +115,12 @@ header {
     position: absolute;
     top: 15%;
     width: 200px;
-    height: 100%;
+    height: 85%;
     left: 0;
     overflow: auto;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
 }
